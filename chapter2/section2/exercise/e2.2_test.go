@@ -13,5 +13,4 @@ func Test_SelectionSort(t *testing.T) {
 			return
 		}
 	}
-	t.Log("pass")
 }

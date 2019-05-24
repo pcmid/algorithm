@@ -15,7 +15,6 @@ func Test_BubblingSort(t *testing.T) {
 			return
 		}
 	}
-	t.Log("pass")
 }
 
 func Test_InsertionSort(t *testing.T) {
@@ -29,5 +28,4 @@ func Test_InsertionSort(t *testing.T) {
 			return
 		}
 	}
-	t.Log("pass")
 }

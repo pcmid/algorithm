@@ -9,14 +9,10 @@ func Test_Seek(t *testing.T) {
 
 	if Seek(nums, 6) != 6 {
 		t.Error("seeked failure")
-	} else {
-		t.Log("seeked pass")
 	}
 
 	if Seek(nums, 7) != 0 {
 		t.Error("unseeked failure")
-	} else {
-		t.Log("unseeked pass")
 	}
 }
 
@@ -33,5 +29,4 @@ func Test_BinaryAdd(t *testing.T) {
 			return
 		}
 	}
-	t.Log("pass")
 }
