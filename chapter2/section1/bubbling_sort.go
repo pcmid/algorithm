@@ -1,6 +1,6 @@
 package section1
 
-func BubblingSort(nums []int) []int {
+func BubblingSort(nums []int) {
 	for k, v := range nums {
 		if k == 0 {
 			continue
@@ -11,6 +11,4 @@ func BubblingSort(nums []int) []int {
 			cur--
 		}
 	}
-	return nums
 }
-

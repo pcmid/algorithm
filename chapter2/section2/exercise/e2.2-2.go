@@ -1,6 +1,6 @@
 package exercise
 
-func SelectionSort(nums []int) []int {
+func SelectionSort(nums []int) {
 
 	getMinIndex := func(n []int) int {
 		min := 0
@@ -18,6 +18,4 @@ func SelectionSort(nums []int) []int {
 			nums[i], nums[i+minIndex] = nums[i+minIndex], nums[i]
 		}
 	}
-
-	return nums
 }

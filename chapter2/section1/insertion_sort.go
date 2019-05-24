@@ -1,6 +1,6 @@
 package section1
 
-func InsertionSort(nums []int) []int {
+func InsertionSort(nums []int) {
 	for k, v := range nums {
 		if k == 0 {
 			continue
@@ -12,5 +12,4 @@ func InsertionSort(nums []int) []int {
 		}
 		nums[last+1] = v
 	}
-	return nums
 }
